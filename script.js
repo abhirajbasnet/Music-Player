@@ -77,4 +77,13 @@ const allSongs = [
 ];
 
 const audio = new Audio();
-let userData = {};
+
+let userData = {
+  songs:[...allSongs],
+  currentSongs:null,
+  songCurrentTime: 0,
+};
+
+const renderSongs = (array) => {
+  
+}
